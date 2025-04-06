@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co.com/fdQPmpyW/download.jpg",
+        "title": "Top 10 ES6 Features You Must Know",
+        "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
+        "author": "Tamanna",
+        "posted_date": "September 15, 2023",
+        "reading_time": 5,
+        "hashtags": ["beginners", "es6"]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co.com/7x3GY82C/download-1.jpg",
+        "title": "React Hooks Explained with Examples",
+        "author_img": "https://randomuser.me/api/portraits/women/65.jpg",
+        "author": "Lima",
+        "posted_date": "October 01, 2023",
+        "reading_time": 7,
+        "hashtags": ["react", "hooks"]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co.com/1tSHdqTb/download-3.jpg",
+        "title": "Master CSS Grid: A Complete Guide",
+        "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+        "author": "Rahim",
+        "posted_date": "October 20, 2023",
+        "reading_time": 6,
+        "hashtags": ["css", "grid"]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co.com/MyBD69z9/download-2.jpg",
+        "title": "API Basics: Learn How APIs Work",
+        "author_img": "https://randomuser.me/api/portraits/men/75.jpg",
+        "author": "Karim",
+        "posted_date": "November 05, 2023",
+        "reading_time": 4,
+        "hashtags": ["api", "webdev"]
+    }
+]
