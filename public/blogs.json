@@ -7,7 +7,8 @@
         "author": "Tamanna",
         "posted_date": "September 15, 2023",
         "reading_time": 5,
-        "hashtags": ["beginners", "es6"]
+        "hashtags": ["beginners", "es6"],
+        "description": "Learn about the most important ES6 features for modern JavaScript development."
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "author": "Lima",
         "posted_date": "October 01, 2023",
         "reading_time": 7,
-        "hashtags": ["react", "hooks"]
+        "hashtags": ["react", "hooks"],
+        "description": "Understand React Hooks with practical examples and usage scenarios."
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "author": "Rahim",
         "posted_date": "October 20, 2023",
         "reading_time": 6,
-        "hashtags": ["css", "grid"]
+        "hashtags": ["css", "grid"],
+        "description": "A complete guide to mastering CSS Grid layout system."
     },
     {
         "id": 4,
@@ -37,6 +40,7 @@
         "author": "Karim",
         "posted_date": "November 05, 2023",
         "reading_time": 4,
-        "hashtags": ["api", "webdev"]
+        "hashtags": ["api", "webdev"],
+        "description": "An introduction to APIs and how they work in web development."
     }
 ]

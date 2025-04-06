@@ -69,9 +69,10 @@ const handleRemoveBookmarked=(id)=>{
               <div className='mt-10'>
   {Bookmarked.map(marked => (
     <div key={marked.id} className="bg-gray-100 p-4 m-2 my-10 rounded-lg shadow-md">
-      <h3 className="text-xl font-semibold">{marked.title}</h3>
+      <h3 className="text-sm font-semibold">{marked.title}</h3>
 
       <img className='w-20 h-20 mx-auto rounded-full object-cover mb-3 mt-2' src={marked.author_img}></img>
+      <small className='text-gray-500 font-semibold'>{marked.author}</small>
       
     </div>
   ))}
