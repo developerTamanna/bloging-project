@@ -3,9 +3,8 @@ import { FaBookmark } from "react-icons/fa";
 const Blog = ({blog, handleBookMark, handleMarkAsRead}) => {
     console.log(blog)
     const {cover, title, author, author_img,hashtags, 
-        reading_time
-        
-    } = blog
+        reading_time, 
+        id } = blog
     return (
         <div className='mt-10'>
             {/* <img src={cover} alt=""></img> */}
@@ -39,7 +38,7 @@ const Blog = ({blog, handleBookMark, handleMarkAsRead}) => {
     <p>{hashtags[1]}</p>
     </div>
     <div className="card-actions justify-end">
-      <button onClick={()=>handleMarkAsRead(reading_time)} className="btn btn-primary">Mark As Read</button>
+      <button onClick={()=>handleMarkAsRead(reading_time, id)} className="btn btn-primary">Mark As Read</button>
     </div>
   </div>
 </div>

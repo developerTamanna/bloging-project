@@ -18,13 +18,30 @@ const handleBookMark = (blog)=>{    //bookmark function
 // time function to read btn
 
 
-const handleMarkAsRead=(time)=>{
+const handleMarkAsRead=(time, id)=>{
 console.log('hello time',time)
 const newTime = readingCount + time;
 setReadingCount(newTime)
+// console.log(id)
+handleRemoveBookmarked(id)
 }
 
 console.log(readingCount)
+
+
+
+
+
+// remove bookmarked list add from btn
+
+const handleRemoveBookmarked=(id)=>{
+      const  remainingBookMark = Bookmarked.filter((mark)=>mark.id!==id)
+        // console.log(remainingBookMark)
+        setBookmarked(remainingBookMark)
+}
+
+
+
 
   return (
     <>
@@ -49,9 +66,17 @@ console.log(readingCount)
               <h2 className='text-xl font-semibold border-1 border-gray-300 rounded-md shadow-2xl'>Bookmark count: {Bookmarked.length}</h2>
 
 
-          {
-            Bookmarked.map(marked=><p>{marked.title}  </p>)
-          }
+              <div className='mt-10'>
+  {Bookmarked.map(marked => (
+    <div key={marked.id} className="bg-gray-100 p-4 m-2 my-10 rounded-lg shadow-md">
+      <h3 className="text-xl font-semibold">{marked.title}</h3>
+
+      <img className='w-20 h-20 mx-auto rounded-full object-cover mb-3 mt-2' src={marked.author_img}></img>
+      
+    </div>
+  ))}
+</div>
+
         </div>
       </div>
      
